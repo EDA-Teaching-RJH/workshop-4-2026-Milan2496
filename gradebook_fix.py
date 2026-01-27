@@ -3,7 +3,7 @@ def main():
     student_count = int(input("How many students to enter? "))
     
     names = []
-    scores = ()
+    scores = []
 
     # Loop to get student details
     for i in range(student_count):
@@ -34,7 +34,7 @@ def main():
     # Loop through the lists and print pass/fail
     # Pass mark is 40
     for i in range(len(names)):
-        if scores(i) < 40:
+        if scores[i] < 40:
             result = "Fail"
         else:
             result = "Pass"

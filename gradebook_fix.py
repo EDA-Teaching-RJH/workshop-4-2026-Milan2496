@@ -41,4 +41,4 @@ def main():
         print(f"{i + 1}: {names[i]} - {scores[i]} ({result})")
 
 # Call the main function
-main
+main()

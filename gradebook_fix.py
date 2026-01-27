@@ -16,7 +16,7 @@ def main():
 
         # Keep asking for score until valid (0-100)
         while True:
-            score_input = input("Score: ")
+            score_input = int(input("Score: "))
             
             # Check for valid range
             if score_input < 0 or score_input > 100:

@@ -1,17 +1,17 @@
 def main():
-    # Ask how many students are in the class
+    
     student_count = int(input("How many students to enter? "))
-
-    # Lists to store data
+    
     names = []
     scores = []
 
     # Loop to get student details
     for i in range(student_count):
-        print("Student " + i + 1)
+        
+        print(f"Student {i + 1}")
         
         # Clean up the name input
-        name_input = input("Name: ").strip.title()
+        name_input = str(input("Name: ").strip())
         names.append(name_input)
 
         # Keep asking for score until valid (0-100)
